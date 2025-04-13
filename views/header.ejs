@@ -1,0 +1,16 @@
+<nav style="background: #333; padding: 1rem; color: white;">
+  <a href="/" style="color: white; margin-right: 1rem;">Blogaroo</a>
+  <% if (user) { %>
+    <a href="/create" style="color: white; margin-right: 1rem;">Create Post</a>
+    <a href="/logout" style="color: white; margin-right: 1rem;">Logout</a>
+  <% } else { %>
+    <a href="/login" style="color: white; margin-right: 1rem;">Login</a>
+  <a href="/register" style="color: white; margin-right: 1rem;">Register</a>
+  <% } %>
+
+  <!-- Insecure Search Bar (No sanitization, direct SQL injection risk) -->
+  <form action="/search" method="GET" style="display: inline;">
+    <input type="text" name="query" placeholder="Search..." />
+    <button type="submit">Go</button>
+  </form>
+</nav>

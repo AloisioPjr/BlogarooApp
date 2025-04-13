@@ -1,0 +1,36 @@
+<!-- views/search_results.ejs -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Search Results - Blogaroo</title>
+</head>
+<body>
+  <%- include('./header') %>
+  <h2>Search Results for "<%- searchTerm %>"</h2>
+
+
+  <% if (posts.length === 0) { %>
+    <p>No results found.</p>
+  <% } else { %>
+    <ul>
+      <% posts.forEach(post => { %>
+        <li>
+          
+          <strong><%= post.title %></strong><br>
+          <small>By <%= post.username %></small><br>
+          <p><%= post.content.substring(0, 100) %>...</p>
+          <% if (typeof user !== 'undefined' && user && user.is_admin) { %>
+            <form method="POST" action="/delete/<%= post.id %>" style="display:inline;">
+              <button type="submit" >Delete</button>
+              <a href="/edit/<%= post.id %>">Edit</a>
+            </form>
+         
+          <% } %>
+        </li>
+        
+      <% }) %>
+    </ul>
+  <% } %>
+  
+</body>
+</html>

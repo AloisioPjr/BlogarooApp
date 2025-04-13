@@ -1,0 +1,28 @@
+<%- include('./header') %>
+
+<h2>All Blog Posts</h2>
+
+<% if (posts.length === 0) { %>
+  <p>No posts available.</p>
+<% } else { %>
+  <ul>
+    <% posts.forEach(post => { %>
+      <li>
+        <strong><%= post.title %></strong><br>
+        <small>By <%= post.username %></small><br>
+        <p><%- post.content %></p>
+
+      </li>
+      <% if (typeof user !== 'undefined' && user && user.is_admin) { %>
+        <form method="POST" action="/delete/<%= post.id %>" style="display:inline;">
+          <button type="submit" >Delete</button>
+          <a href="/edit/<%= post.id %>">Edit</a>
+        </form>
+     
+      <% } %>
+    <% }) %>
+   
+  </ul>
+
+<% } %>
+ <a href="/create" style="color: rgb(0, 0, 0); margin-right: 1rem;">Create Post</a>
