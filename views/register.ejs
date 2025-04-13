@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Register - Blogaroo</title>
+</head>
+
+<body>
+<body>
+    <%- include('./header') %>
+    <h1>Register</h1>
+    <% if (typeof errors !== 'undefined' && errors.length > 0) { %>
+        <ul style="color: red;">
+          <% errors.forEach(error => { %>
+            <li><%= error.msg %></li>
+          <% }) %>
+        </ul>
+      <% } %>
+      
+    <form method="POST" action="/register">
+        <input type="hidden" name="_csrf" value="<%= csrfToken %>"><!-- CSRF protection token -->
+        <label>Username:</label><br>
+        <input type="text" name="username" required><br><br>
+
+        <label>Password:</label><br>
+        <input type="password" name="password" required><br><br>
+
+        <button type="submit">Register</button>
+    </form>
+
+    <p>Already have an account? <a href="/login">Login here</a></p>
+</body>
+</html>
