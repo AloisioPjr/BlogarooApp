@@ -39,7 +39,7 @@ Blogaroo is a secure web application built with **Node.js**, **Express**, and **
    ```bash
    git clone https://github.com/yourusername/blogaroo.git
    cd blogaroo
-  `
+  
    ```bash
-  npm install
+   npm install
    
