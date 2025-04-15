@@ -48,8 +48,8 @@ Blogaroo is a secure web application built with **Node.js**, **Express**, and **
    ```
    ``Visit: http://localhost:3000``
    ## User Credencials
-   username: “admin1234”, Password: “Password1234$”, (Admin Privileges)
-   Username: “user1234”, Password: “Password1234$”, (User Privileges)
+   ``username: “admin1234”, Password: “Password1234$”, (Admin Privileges)
+   Username: “user1234”, Password: “Password1234$”, (User Privileges)``
    or
    grant admin privileges to an existing account:
    go to your Blogaroo directory open the terminal and enter the following commands
