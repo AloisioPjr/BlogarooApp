@@ -52,6 +52,7 @@ Blogaroo is a secure web application built with **Node.js**, **Express**, and **
    ``username: “admin1234”
    /Password: “Password1234$”
    ``
+   
    or
    
    grant admin privileges to an existing account:
