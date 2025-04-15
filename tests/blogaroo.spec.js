@@ -12,8 +12,8 @@ test.describe.serial('Blogaroo login flow', () => {
     await page.fill('input[name="password"]', password);
     await page.click('button[type="submit"]');
 
-    await page.screenshot({ path: 'debug-after-register.png' });
-    console.log(await page.textContent('body'));
+  
+    console.log(await page.textContent('body')); // Log the body content for debugging
   });
 
   test('Login with registered user', async ({ page }) => {
@@ -23,12 +23,23 @@ test.describe.serial('Blogaroo login flow', () => {
     await page.click('button[type="submit"]');
     
 
-    await page.screenshot({ path: 'debug-after-login.png' });
-    console.log(await page.textContent('body'));
+
+    console.log(await page.textContent('body'));//  Log the body content for debugging
 
     // Assert login was successful
     await expect(page.locator(`h1`)).toContainText('Welcome');
 
   });
   
+  test('Create a new blog post', async ({ page }) => {
+    await page.goto(`${BASE_URL}/create`);
+    await page.fill('input[name="title"]', 'Test Post');
+    await page.fill('textarea[name="content"]', 'This is a test post.');
+    await page.click('button[type="submit"]');
+
+    // Assert post creation was successful
+    await expect(page.locator(`h1`)).toContainText('Post created');
+  });
+ 
+
 });

@@ -6,8 +6,7 @@ const csurf = require('csurf'); // Protects against CSRF attacks
 const morgan = require('morgan'); // Logs HTTP requests
 const path = require('path');// Path module for file and directory paths
 const routes = require('./routes/routes');// Main routes for blog posts and app functionality
-const adminRoutes = require('./routes/admin');// Admin routes for managing blog posts
-const authRoutes = require('./routes/auth');// Auth routes for login, registration, etc.
+
 require('dotenv').config(); // Loads environment variables securely from .env
 
 const app = express();// Create an Express application
@@ -49,9 +48,9 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
 //  Main Route Handler
-app.use('/', authRoutes); // Register auth routes
+
 app.use('/', routes);     // Register main blog and app routes
-app.use('/', adminRoutes); // Admin route registration
+
 //  404 Not Found Handler (Fail Securely)
 app.use((req, res) => {
     res.status(404).send('404 - Not Found');

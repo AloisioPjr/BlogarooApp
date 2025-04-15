@@ -487,3 +487,133 @@
 [2025-04-13T20:15:03.591Z] INFO: Register page accessed by visitor
 [2025-04-13T20:15:04.775Z] INFO: Login page accessed by visitor
 [2025-04-13T20:15:09.036Z] WARN: Failed login attempt for username: ' OR 1=1; UPDATE users SET is_admin = 1 WHERE username = 'USER@example.com'; --
+[2025-04-14T21:24:16.518Z] INFO: Register page accessed by visitor
+[2025-04-14T21:24:16.711Z] INFO: Register page accessed by visitor
+[2025-04-14T21:24:16.838Z] INFO: New user registered: user_1744665856253
+[2025-04-14T21:24:16.851Z] INFO: Login page accessed by visitor
+[2025-04-14T21:24:17.090Z] INFO: Login page accessed by visitor
+[2025-04-14T21:24:17.336Z] INFO: User logged in: user_1744665856253
+[2025-04-14T21:24:17.351Z] INFO: Visited homepage by user_1744665856253
+[2025-04-14T21:24:17.796Z] INFO: Login page accessed by visitor
+[2025-04-14T21:24:18.057Z] INFO: Register page accessed by visitor
+[2025-04-14T21:24:18.728Z] INFO: New user registered: user_1744665856251
+[2025-04-14T21:24:18.740Z] INFO: Login page accessed by visitor
+[2025-04-14T21:24:19.040Z] INFO: Login page accessed by visitor
+[2025-04-14T21:24:19.315Z] INFO: User logged in: user_1744665856251
+[2025-04-14T21:24:19.327Z] INFO: Visited homepage by user_1744665856251
+[2025-04-15T11:48:29.418Z] INFO: Visited homepage by undefined
+[2025-04-15T11:48:31.799Z] INFO: Visited homepage by undefined
+[2025-04-15T11:48:43.580Z] INFO: User logged in: admin123
+[2025-04-15T11:48:43.596Z] INFO: Visited homepage by admin123
+[2025-04-15T11:48:51.529Z] INFO: Post ID 1 deleted by admin123
+[2025-04-15T11:48:57.570Z] INFO: Post title Finibus Bonorum et Malorum updated by admin123
+[2025-04-15T11:49:21.241Z] INFO: Post title Finibus Bonorum et Malorum updated by admin123
+[2025-04-15T11:49:21.261Z] INFO: Post title Finibus Bonorum et Malorum updated by admin123
+[2025-04-15T11:49:29.362Z] INFO: User Searched : "hgh"
+[2025-04-15T11:49:36.521Z] INFO: Post created by admin123: "jjjj"
+[2025-04-15T11:49:52.152Z] INFO: User logged out: admin123
+[2025-04-15T12:20:42.395Z] INFO: User logged in: admin123
+[2025-04-15T12:20:42.411Z] INFO: Visited homepage by admin123
+[2025-04-15T12:20:47.114Z] INFO: User Searched : "ww"
+[2025-04-15T12:20:50.425Z] INFO: User Searched : "w"
+[2025-04-15T12:29:06.735Z] INFO: New user registered: user_1744720143583
+[2025-04-15T12:29:07.091Z] INFO: New user registered: user_1744720143581
+[2025-04-15T12:29:07.482Z] INFO: User logged in: user_1744720143583
+[2025-04-15T12:29:07.492Z] INFO: Visited homepage by user_1744720143583
+[2025-04-15T12:29:07.604Z] INFO: User logged in: user_1744720143581
+[2025-04-15T12:29:07.620Z] INFO: Visited homepage by user_1744720143581
+[2025-04-15T13:19:47.742Z] INFO: Visited homepage by undefined
+[2025-04-15T13:20:55.080Z] INFO: Visited homepage by undefined
+[2025-04-15T13:20:56.502Z] INFO: Visited homepage by undefined
+[2025-04-15T13:20:57.159Z] INFO: Visited homepage by undefined
+[2025-04-15T13:20:59.215Z] INFO: Visited homepage by undefined
+[2025-04-15T13:21:01.494Z] INFO: Visited homepage by undefined
+[2025-04-15T13:21:52.937Z] INFO: Visited homepage by undefined
+[2025-04-15T13:23:05.837Z] INFO: New user registered: user1234
+[2025-04-15T13:23:25.406Z] INFO: User logged in: user1234
+[2025-04-15T13:23:25.426Z] INFO: Visited homepage by user1234
+[2025-04-15T13:24:36.191Z] INFO: Post created by user1234: "test"
+[2025-04-15T13:24:42.449Z] INFO: Visited homepage by user1234
+[2025-04-15T13:31:10.422Z] INFO: User logged out: user1234
+[2025-04-15T13:31:23.902Z] INFO: User logged in: admin123
+[2025-04-15T13:31:23.920Z] INFO: Visited homepage by admin123
+[2025-04-15T13:32:09.750Z] INFO: Post title admin test updated by admin123
+[2025-04-15T13:32:31.493Z] INFO: User Searched : "admin test"
+[2025-04-15T13:32:46.356Z] INFO: Post ID 6 deleted by admin123
+[2025-04-15T13:34:51.499Z] INFO: Visited homepage by undefined
+[2025-04-15T13:34:56.479Z] INFO: Visited homepage by undefined
+[2025-04-15T13:37:05.928Z] INFO: User logged in: user1234
+[2025-04-15T13:37:05.981Z] INFO: Visited homepage by user1234
+[2025-04-15T13:39:47.442Z] INFO: User Searched : "<script>alert('XSS Attack!');</script>"
+[2025-04-15T13:40:27.963Z] INFO: User Searched : "<script>alert('XSS Attack!');</script>"
+[2025-04-15T13:42:42.953Z] INFO: User Searched : "<script>alert(" SQL Attack!');</script>"
+[2025-04-15T15:16:37.023Z] INFO: Visited homepage by undefined
+[2025-04-15T16:25:30.006Z] INFO: Visited homepage by undefined
+[2025-04-15T16:25:45.969Z] INFO: User logged in: admin123
+[2025-04-15T16:25:45.990Z] INFO: Visited homepage by admin123
+[2025-04-15T16:25:56.210Z] INFO: User logged out: admin123
+[2025-04-15T16:26:05.732Z] INFO: User logged in: user123
+[2025-04-15T16:26:05.747Z] INFO: Visited homepage by user123
+[2025-04-15T19:00:21.430Z] INFO: User logged out: Unknown user
+[2025-04-15T19:08:26.985Z] INFO: Visited homepage by undefined
+[2025-04-15T19:08:37.860Z] INFO: Visited homepage by undefined
+[2025-04-15T19:08:37.988Z] INFO: Visited homepage by undefined
+[2025-04-15T19:08:38.092Z] INFO: Visited homepage by undefined
+[2025-04-15T19:08:49.613Z] INFO: Visited homepage by undefined
+[2025-04-15T19:08:49.626Z] INFO: Visited homepage by undefined
+[2025-04-15T19:08:54.311Z] INFO: Visited homepage by undefined
+[2025-04-15T19:08:54.361Z] INFO: Visited homepage by undefined
+[2025-04-15T19:09:13.862Z] INFO: Visited homepage by undefined
+[2025-04-15T19:09:33.094Z] INFO: Visited homepage by undefined
+[2025-04-15T19:09:33.121Z] INFO: Visited homepage by undefined
+[2025-04-15T19:09:38.386Z] INFO: Visited homepage by undefined
+[2025-04-15T19:09:38.398Z] INFO: Visited homepage by undefined
+[2025-04-15T19:09:38.426Z] INFO: Visited homepage by undefined
+[2025-04-15T19:09:38.488Z] INFO: Visited homepage by undefined
+[2025-04-15T19:09:38.491Z] INFO: Visited homepage by undefined
+[2025-04-15T19:09:38.532Z] INFO: Visited homepage by undefined
+[2025-04-15T19:09:38.602Z] INFO: Visited homepage by undefined
+[2025-04-15T19:09:38.612Z] INFO: Visited homepage by undefined
+[2025-04-15T19:09:38.664Z] INFO: Visited homepage by undefined
+[2025-04-15T19:09:38.694Z] INFO: Visited homepage by undefined
+[2025-04-15T19:09:38.717Z] INFO: Visited homepage by undefined
+[2025-04-15T19:09:38.780Z] INFO: Visited homepage by undefined
+[2025-04-15T19:09:38.790Z] INFO: Visited homepage by undefined
+[2025-04-15T19:09:38.849Z] INFO: Visited homepage by undefined
+[2025-04-15T19:09:38.851Z] INFO: Visited homepage by undefined
+[2025-04-15T19:09:38.921Z] INFO: Visited homepage by undefined
+[2025-04-15T19:09:38.979Z] INFO: Visited homepage by undefined
+[2025-04-15T19:09:38.981Z] INFO: Visited homepage by undefined
+[2025-04-15T19:09:39.036Z] INFO: Visited homepage by undefined
+[2025-04-15T19:09:39.084Z] INFO: Visited homepage by undefined
+[2025-04-15T19:09:39.137Z] INFO: Visited homepage by undefined
+[2025-04-15T19:09:39.193Z] INFO: Visited homepage by undefined
+[2025-04-15T19:09:39.248Z] INFO: Visited homepage by undefined
+[2025-04-15T19:09:39.312Z] INFO: Visited homepage by undefined
+[2025-04-15T19:35:16.664Z] INFO: Visited homepage by undefined
+[2025-04-15T19:35:18.638Z] INFO: Visited homepage by undefined
+[2025-04-15T19:56:26.119Z] INFO: Visited homepage by undefined
+[2025-04-15T19:58:06.812Z] INFO: New user registered: admin123
+[2025-04-15T19:58:13.562Z] INFO: User logged in: admin123
+[2025-04-15T19:58:13.583Z] INFO: Visited homepage by admin123
+[2025-04-15T19:59:18.283Z] INFO: User logged out: admin123
+[2025-04-15T19:59:26.062Z] INFO: User logged in: user1234
+[2025-04-15T19:59:26.084Z] INFO: Visited homepage by user1234
+[2025-04-15T22:22:14.301Z] INFO: New user registered: user_1744755730362
+[2025-04-15T22:22:14.461Z] INFO: New user registered: user_1744755730363
+[2025-04-15T22:22:14.842Z] INFO: User logged in: user_1744755730362
+[2025-04-15T22:22:14.854Z] INFO: Visited homepage by user_1744755730362
+[2025-04-15T22:22:15.264Z] INFO: User logged in: user_1744755730363
+[2025-04-15T22:22:15.281Z] INFO: Visited homepage by user_1744755730363
+[2025-04-15T22:23:40.645Z] INFO: New user registered: user_1744755819805
+[2025-04-15T22:23:41.194Z] INFO: User logged in: user_1744755819805
+[2025-04-15T22:23:41.209Z] INFO: Visited homepage by user_1744755819805
+[2025-04-15T22:23:43.332Z] INFO: New user registered: user_1744755819800
+[2025-04-15T22:23:44.073Z] INFO: User logged in: user_1744755819800
+[2025-04-15T22:23:44.091Z] INFO: Visited homepage by user_1744755819800
+[2025-04-15T23:11:15.307Z] INFO: Visited homepage by undefined
+[2025-04-15T23:11:27.550Z] INFO: User logged in: admin1234
+[2025-04-15T23:11:27.568Z] INFO: Visited homepage by admin1234
+[2025-04-15T23:11:29.257Z] INFO: User logged out: admin1234
+[2025-04-15T23:11:42.105Z] INFO: User logged in: user1234
+[2025-04-15T23:11:42.125Z] INFO: Visited homepage by user1234
