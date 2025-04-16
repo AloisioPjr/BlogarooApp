@@ -23,7 +23,7 @@ This is an intentionally insecure version of Blogaroo, a basic blogging applicat
 - No CSRF protection
 - No security headers
 - No role-based access control enforcement
-- Hardcodd, weak session secret
+- Hardcodd and weak session secret
 - EJS templates vulnerable to XSS if improperly used
 
 
