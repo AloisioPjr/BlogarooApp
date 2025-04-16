@@ -11,17 +11,25 @@ Student: Aloisio Pereira Junior
 ## Application Code References 
 winston for logging:
  https://youtu.be/YjEqmINAQpI 
+ 
 general website:
+
 https://github.com/WebDevSimplified/Markdown-Blog 
+
 https://youtu.be/1NrHkjlWVhM 
+
 Login and Signup:
 	https://youtu.be/O5kh3sTVSvA 
+ 
 Playwright Testing:
 	https://youtu.be/wawbt1cATsk 
+ 
 CSRF protection:
 	https://youtu.be/tgjLsEmxcuY 
+ 
 Helmet Header:
 	https://youtu.be/tGMPWVl_l9Y 
+ 
 Bycrypt:
 	https://youtu.be/AzA_LTDoFqYb 
 
