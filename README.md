@@ -4,29 +4,29 @@ Link to Video Demonstration: https://youtu.be/VNWNMGNI3L0
 
 Module: Secure Application Programming Project
 
-Blogaroo Application (secure and Insecure versions)
+Blogaroo Application (Insecure versions)
 
 Student: Aloisio Pereira Junior
 
 
-#  Blogaroo — Secure Blogging Platform
+#  Blogaroo — insecure
 
-Blogaroo is a secure web application built with **Node.js**, **Express**, and **SQLite3**, designed to demonstrate secure coding practices in a blogging platform. It implements session management, CSRF protection, secure headers, and form validation to protect against common vulnerabilities.
+This is an intentionally insecure version of Blogaroo, a basic blogging application built with Node.js, Express, and SQLite3. It is designed to demonstrate common web application vulnerabilities by omitting key security practices such as input validation, CSRF protection, secure session handling, and more.
 
 ---
 
 ##  Features
 
-- User Registration & Login (with hashed passwords)
-- Create, Edit, and View Blog Posts
-- Admins can delete any blog post
-- Full-text blog search
-- Secure headers (via Helmet)
-- Input validation & sanitization (via express-validator)
-- Logging (via Winston + Morgan)
-- CSRF protection
-- Session management stored in SQLite
-- EJS templating
+- Plaintext password storage (no hashing)
+- SQL Injection vulnerabilities in login, registration, and search
+- No input validation or sanitization
+- No CSRF protection
+- No security headers
+- No role-based access control enforcement
+- Hardcodd, weak session secret
+- EJS templates vulnerable to XSS if improperly used
+
+
 
 ---
 
@@ -54,7 +54,7 @@ Blogaroo is a secure web application built with **Node.js**, **Express**, and **
 ## Admin User Credencials
 
    ``username: “admin1234”
-   /Password: “Password1234$”
+   /Password: “abc”
    ``
    
    or
