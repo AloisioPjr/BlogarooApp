@@ -61,8 +61,18 @@ This is an intentionally insecure version of Blogaroo, a basic blogging applicat
    
    grant admin privileges to an existing account:
    
-   go to your Blogaroo directory open the terminal and enter the following commands
+   go to your Blogaroo directory open the terminal and enter the following commands 
    
+   make sure you have SQLite3 already installed in your system before proceding 
+   
+   check if you have it already installed with the following command:
+   
+   ```bash
+   sqlite3 --version
+   ```
+ 
+   if not download here: https://www.sqlite.org/download.html
+    
    ```bash
    sqlite3 db/database.sqlite3
    UPDATE users SET is_admin = 1 WHERE username = 'INPUT_YOUR_OWN_USERNAME_HERE';
