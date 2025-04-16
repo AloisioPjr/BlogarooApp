@@ -18,23 +18,14 @@ Blogaroo is a secure web application built with **Node.js**, **Express**, and **
 ##  Features
 
 - User Registration & Login (with hashed passwords)
-- 
 - Create, Edit, and View Blog Posts
-- 
 - Admins can delete any blog post
-- 
 - Full-text blog search
-- 
 - Secure headers (via Helmet)
-- 
 - Input validation & sanitization (via express-validator)
-- 
 - Logging (via Winston + Morgan)
-- 
 - CSRF protection
-- 
 - Session management stored in SQLite
-- 
 - EJS templating
 
 ---
